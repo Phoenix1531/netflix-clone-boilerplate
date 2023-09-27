@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        .white{
-            filter:invert(1);
+        .white {
+            filter: invert(1);
             /* mix-blend-mode:; */
         }
     </style>
 </head>
+
 <body>
     <div class="content">
         <!-- Navbar -->
@@ -44,7 +46,7 @@
                 <div class="btns">
                     <button id="play">
                         <img id="play-btn" src="assets/Play.png" alt="">
-                       <p>Play</p> 
+                        <p>Play</p>
                     </button>
                     <button id="info">
                         <img id="info-btn" class="white" src="assets/Detail.png" alt="">
@@ -55,14 +57,21 @@
 
             <div class="main-body">
                 <div class="see-again">
-                <p class="first-sec">See again</p>
-                <img class="white" src="assets/ArrowRight.png" alt="">
-                <br>
-                <img src="assets/Tile Component-1.png" alt="">
-                <img src="assets/Tile Component-2.png" alt="">
-                <img src="assets/Tile Component-3.png" alt="">
-                <img src="assets/Tile Component-4.png" alt="">
-                <img src="assets/Tile Component.png" alt="">
+                    <p class="first-sec">See again
+                        <img id="arrow-left" class="white" src="assets/ArrowRight.png" alt="">
+                    </p>
+                    <div class="first-imgs">
+                        <img class="imgs-1st-row" src="assets/Tile Component-1.png" alt="">
+                        <img class="imgs-1st-row" src="assets/Tile Component-2.png" alt="">
+                        <img class="imgs-1st-row" src="assets/Tile Component-3.png" alt="">
+                        <img class="imgs-1st-row" src="assets/Tile Component-4.png" alt="">
+                        <img class="imgs-1st-row" src="assets/Tile Component-5.png" alt="">
+                    </div>
+                </div>
+                <div class="top-10">
+                    <p class="first-sec">Top 10 in your country
+                        <img id="arrow-left" class="white" src="assets/ArrowRight.png" alt="">
+                    </p>
                 </div>
             </div>
         </div>
@@ -97,7 +106,7 @@
                 <li>Yatırımcı İlişkileri</li>
                 <li>Yasal Hükümler</li>
             </ul>
-        </div> 
+        </div>
         <div class="foot-3">
             <ul class="foot-ul">
                 <li>Yardım Merkezi</li>
@@ -111,7 +120,8 @@
                 <li>Kullanım Koşulları</li>
                 <li>Kurumsal Bilgiler</li>
             </ul>
-        </div>   
+        </div>
     </div>
 </body>
+
 </html>

@@ -109,10 +109,24 @@ button{
 }
 .see-again{
     display: flex;
+    flex-direction: column;
     margin-top: 600px;
 }
-
-
+.first-imgs{
+    display: flex;
+}
+.first-sec{
+    margin-left: 64px;
+    font-weight: bold;
+}
+#arrow-left{
+    height: 10px;
+    width: 15px;
+}
+.imgs-1st-row{
+    margin-right:-99px;
+    
+}
 
 
 
@@ -123,6 +137,7 @@ button{
     width: 100vw;
     background-color: black;
     color: grey;
+    margin-top: 500px;
 }
 .social-media{
     display: flex;
