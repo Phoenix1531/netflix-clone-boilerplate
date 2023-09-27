@@ -75,7 +75,46 @@ button{
 }
 #play{
     background-color: white;
+    height: 40px;
+    width: 80px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
 }
+#info{
+    background-color: gray;
+    opacity: 70%;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+}
+#play-btn{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#info-btn{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+.see-again{
+    display: flex;
+    margin-top: 600px;
+}
+
+
+
+
 
 
 /* Footer CSS */
