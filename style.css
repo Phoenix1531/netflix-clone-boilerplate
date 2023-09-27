@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+/* Navbar CSS */
+.navbar{
+    display: flex;
+    color: white;
+    width: 100vw;
+    
+}
+#netflix-png{
+    width: 154px;
+    height: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.nav-svg{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.nav-icons{
+    display: flex;
+    margin-left: 45vw;
+}
+.nav-text{
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+
+/* Body CSS */
+.content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+    background-image: url(assets/Title-Image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.top-body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 320px;
+    margin-left: 100px;
+}
+.first-row{
+    display: flex;
+}
+.netflix-logo{
+    width: 20px;
+    height: 40px;
+    margin-right: 20px;
+}
+#Maid{
+    font-size: 120px;
+    font-weight: bolder;
+}
+.btns{
+    display: flex;
+}
+button{
+    align-items: center;
+}
+#play{
+    background-color: white;
+}
+
+
+/* Footer CSS */
+.footer{
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    color: grey;
+}
+.social-media{
+    display: flex;
+}
+.foot-ul>li{
+    list-style-type: none;
+}
+.spain-btn{
+    border:solid 1px white;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    color: grey;
+}
+.foot-1{
+    margin-left: 250px;
+}
+li{
+    margin-bottom: 20px;
+}
+.foot-2,.foot-3,.foot-4{
+    margin-right: 150px;
+}
+.social-png{
+    margin-right: 10px;
+}
