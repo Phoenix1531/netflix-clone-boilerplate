@@ -1,81 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body{
+
+body {
     background-color: black;
     overflow-x: hidden;
 }
-/* Navbar CSS */
-.navbar{
-    display: flex;
-    color: white;
-    width: 100vw;
-    
-}
-#netflix-png{
-    width: 154px;
-    height: 45px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-}
-.nav-svg{
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
-    margin-right: 20px;
-}
-.nav-icons{
-    display: flex;
-    margin-left: 45vw;
-}
-.nav-text{
-    margin-right: 15px;
-    margin-top: 25px;
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
-
-/* Body CSS */
-.content{
+.flex {
+    display: flex;
+}
+.flex-column{
     display: flex;
     flex-direction: column;
-    color: white;
-    height: 100vh;
+}
+.top {
     background-image: url(assets/Title-Image.png);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    height: 115vh;
+    width: 100vw;
+    box-shadow: 0 0px 10px 10px black inset;
 }
-.top-body{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-top: 320px;
-    margin-left: 100px;
+
+#netflix-txt {
+    width: 110px;
+    height: 25px;
+    margin-right: 10px;
 }
-.first-row{
-    display: flex;
+
+.nav-left p {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
 }
-.netflix-logo{
-    width: 20px;
-    height: 40px;
-    margin-right: 20px;
-}
-#Maid{
-    font-size: 120px;
-    font-weight: bolder;
-}
-.btns{
-    display: flex;
-}
-button{
+
+.nav-left {
+    justify-content: space-between;
     align-items: center;
 }
-#play{
+
+.navbar {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 22px;
+}
+.nav-right{
+    align-items: center;
+    margin-right: 20px;
+}
+.nav-right img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+#angrybird {
+    height: 37px;
+    width: 35px;
+}
+
+.big-txt{
+    color: white;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 68px;
+}
+
+.netflix-logo{
+    width: 20px;
+    height: 33px;
+    margin-right: 14px;
+}
+.show-txt{
+    font-size: large;
+    margin-top: 5px;
+}
+#Maid{
+    font-size: 145px;
+    font-weight: bolder;
+    margin-left: -10px;
+    margin-top: -23px;
+}
+
+button{
+    align-items: center;
+    font-weight: bold;
+}
+.play{
     background-color: white;
-    height: 40px;
+    height: 45px;
     width: 80px;
     margin-right: 20px;
     border: none;
@@ -84,91 +106,124 @@ button{
     font-weight: bold;
     display: flex;
 }
-#info{
-    background-color: gray;
+.info{
+    background-color: #8C8D91;
     opacity: 70%;
     color: white;
     border: none;
-    border-radius: 6px;
-    width: 130px;
-    height: 40px;
+    border-radius: 4px;
+    width: 140px;
+    height: 45px;
     font-weight: bold;
     display: flex;
 }
 #play-btn{
-    margin-right: 10px;
+    width:18px;
+    height: 20px;
+    margin-right: 5px;
     margin-left: 10px;
 }
 #info-btn{
     margin-right: 10px;
-    margin-left: 10px;
-}
-.main-body{
-    display: flex;
-    flex-direction: column;
-}
-.see-again{
-    display: flex;
-    flex-direction: column;
-    margin-top: 600px;
-}
-.first-imgs{
-    display: flex;
-}
-.first-sec{
-    margin-left: 64px;
-    font-weight: bold;
-}
-#arrow-left{
-    height: 10px;
-    width: 15px;
-}
-.imgs-1st-row{
-    margin-right:-99px;
-}
-.top-10{
-    margin-top: 30px;
-}
-.imgs-2nd-row{
-    height: 200px;
-    margin-left: 100px;
-}
-#plus{
-    height: 20px;
-    width: 20px;
-    margin-left: 1300px;
+    margin-left: 20px;
 }
 
-/* Footer CSS */
-.footer{
+.add{
+    position: absolute;
+    margin-top: 640px;
     display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+}
+.add-png{
+    margin-right: 20px;
+}
+
+/*------- Middle body css------- */
+.main-body{
+    margin-top: -115px;
+    color: white;
+}
+.category{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+.see-again , .top-10{
+    margin-bottom: 60px;
+}
+.imgs-row{
+    margin-right:-109px;
+}
+.imgs-2nd-row{
+    /* margin-right: 30px; */
+    margin-left: -20px;
+    height: 200px;
+    width: 170px;
+}
+.imgs-2nd-row-1st{
+    /* margin-right: 30px; */
+    height: 200px;
+    width: 170px;
+}
+.top-png{
+    position: absolute;
+    margin-left:293px ;
+    height: 40px;
+    width: 30px;
+}
+
+
+
+/*----------- Footer css--------- */
+
+.footer{
     width: 100vw;
     background-color: black;
     color: grey;
-    margin-top: 500px;
+    font-size: small;
+    /* margin-top: 500px; */
 }
-.social-media{
-    display: flex;
-}
+
 .foot-ul>li{
     list-style-type: none;
 }
-.spain-btn{
-    border:solid 1px white;
+.spanish-btn{
+    border:solid 1px grey;
     background-color: black;
     height: 50px;
     width: 100px;
     color: grey;
 }
 .foot-1{
-    margin-left: 250px;
+    margin-left: 310px;
 }
 li{
     margin-bottom: 20px;
 }
 .foot-2,.foot-3,.foot-4{
+    margin-top: 50px;
     margin-right: 150px;
 }
-.social-png{
-    margin-right: 10px;
+.pngs{
+    margin-right: 20px;
+} 
+
+
+/*
+
+#plus{
+    height: 20px;
+    width: 20px;
+    margin-left: 1300px;
 }
+
+  */
+
+/* @media only screen and (max-width:500px){
+    .content{
+        width: 100vw;
+        background-size: 100% 100%;
+    }
+} */
