@@ -27,8 +27,8 @@ body::-webkit-scrollbar {
     background-image: url(assets/Title-Image.png);
     background-size: 100% 100%;
     height: 115vh;
-    width: 100vw;
-    box-shadow: 0 0px 10px 10px black inset;
+    width: 100%;
+    box-shadow: 0 10px 50px 10px  black inset;
 }
 
 #netflix-txt {
@@ -210,20 +210,167 @@ li{
     margin-right: 20px;
 } 
 
+@media only screen and (max-width:426px){
+    /* ---------Navbar----------- */
+    .top{
+        width: 100vmin;
+        height: 70vmax;
+        background-repeat: no-repeat;
+        box-shadow: none;
+    }
+    #netflix-txt{
+        margin-right: 0;
+        width: 80px;
+        height: 20px;
+    }
+    .nav-left p{
+        display: none;
+    }
+    .navbar{
+        padding-left: 15px;
+        padding-top: 10px;    
+    }
+    .nav-right{
+        margin: 0;
+    }
+    .nav-right img{
+        height: 18px;
+        width: 18px;
+        margin-right: 10px;
+    }
+    #angrybird {
+        height: 25px;
+        width: 23px;
+    }
+    .big-txt{
+        margin-top: 200px;
+        margin-left: 30px;
+    }
+    #Maid{
+        font-size: 85px;
+    }
+    .play{
+        width: 68px;
+        height: 35px;
+    }
+    .info{
+        width: 100px;
+        height: 35px;
+    }
+    #info-btn{
+        margin-left: 6px;
+        margin-right: 5px;
+    }
 
-/*
+    /* ---------Middle body-------- */
 
-#plus{
-    height: 20px;
-    width: 20px;
-    margin-left: 1300px;
+    .main-body{
+        margin-top: -50px;
+    }
+    .category{
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .see-again , .top-10{
+        margin-bottom: 80px;
+    }
+    .imgs-row{
+        width: 85vmax;
+        height: 30vmax;
+        margin-left:-62px;
+        margin-bottom: 50px;
+    }
+    /* .imgs-2nd-row{
+        margin-left: 0px;
+    } */
+    .top-png{
+        margin-left:375px ;
+    }
+    #six-rank{
+        display: none;
+    }
+    .rank{
+        margin-left: 60px;
+    }
+    .add{
+        margin-top: 380px;
+    }
+    /* footer css */
+    .footer{
+        width: 25vmax;
+    }
+    .foot-1{
+        margin-left: 10px;
+    }
+    .foot-1, .foot-3, .foot-4{
+        margin-right: 10px;
+    }
+    .foot-3{
+        margin-left: -120px;
+    }
+}
+@media only screen and (max-width:376px){
+    .top{
+        width: 100vmin;
+        height: 70vmax;
+        background-repeat: no-repeat;
+        box-shadow: none;
+    }
+    .imgs-row{
+        width: 70vmax;
+        height: 28vmax;
+        margin-left:-40px;
+        margin-bottom: 50px;
+    }
+    .rank{
+        margin-left: 40px;
+    }
+    .top-png{
+        margin-left:320px ;
+    }
+    .footer{
+        font-size: 13px;
+        width: 25vmax;
+    }
+    .foot-2{
+        margin-left: -44px;
+    }
+    .foot-3{
+        margin-left: -140px;
+    }
+}
+@media only screen and (max-width:320px){
+    .top{
+        width: 100vmin;
+        height: 70vmax;
+        background-repeat: no-repeat;
+        box-shadow: none;
+    }
+    .imgs-row{
+        width: 63vmax;
+        height: 25vmax;
+        margin-left:-40px;
+        margin-bottom: 50px;
+    }
+    .rank{
+        margin-left: 13px;
+    }
+    .top-png{
+        margin-left:275px ;
+    }
+    .footer{
+        font-size: 10px;
+        width: 25vmax;
+    }
+    .foot-2{
+        margin-left: -44px;
+    }
+    .foot-3{
+        margin-left: -140px;
+    }
 }
 
-  */
-
-/* @media only screen and (max-width:500px){
-    .content{
-        width: 100vw;
-        background-size: 100% 100%;
-    }
-} */
