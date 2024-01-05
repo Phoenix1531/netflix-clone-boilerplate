@@ -26,19 +26,19 @@ body::-webkit-scrollbar {
 .top {
     background-image: url(assets/Title-Image.png);
     background-size: 100% 100%;
-    height: 115vh;
+    height: 115vmin;
     width: 100%;
     box-shadow: 0 10px 50px 10px  black inset;
 }
 
 #netflix-txt {
-    width: 110px;
-    height: 25px;
-    margin-right: 10px;
+    width: 7vmax;
+    height: 1.8vmax;
+    margin-right: 1vmax;
 }
 
 .nav-left p {
-    margin-left: 15px;
+    margin-left: 1.5vmax;
     color: black;
     font-weight: bold;
 }
@@ -50,45 +50,45 @@ body::-webkit-scrollbar {
 
 .navbar {
     justify-content: space-between;
-    padding-left: 50px;
-    padding-top: 22px;
+    padding-left: 3.2vmax;
+    padding-top: 1.3vmax;
 }
 .nav-right{
     align-items: center;
-    margin-right: 20px;
+    margin-right: 1.5vmax;
 }
 .nav-right img {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
+    width: 1.5vmax;
+    height: 1.5vmax;
+    margin-right: 1.5vmax;
 }
 
 #angrybird {
-    height: 37px;
-    width: 35px;
+    height: 2.4vmax;
+    width: 2.1vmax;
 }
 
 .big-txt{
     color: white;
     position: absolute;
-    margin-top: 360px;
-    margin-left: 68px;
+    margin-top: 24vmax;
+    margin-left: 4.5vmax;
 }
 
 .netflix-logo{
-    width: 20px;
-    height: 33px;
-    margin-right: 14px;
+    width: 1.5vmax;
+    height: 2.2vmax;
+    margin-right: 1.3vmax;
 }
 .show-txt{
     font-size: large;
-    margin-top: 5px;
+    margin-top: 0.4vmax;
 }
 #Maid{
-    font-size: 145px;
+    font-size:10.5vmax;
     font-weight: bolder;
-    margin-left: -10px;
-    margin-top: -23px;
+    margin-left: -1vmax;
+    margin-top: -1.6vmax;
 }
 
 button{
@@ -97,9 +97,9 @@ button{
 }
 .play{
     background-color: white;
-    height: 45px;
-    width: 80px;
-    margin-right: 20px;
+    height: 3vmax;
+    width: 5vmax;
+    margin-right: 1.5vmax;
     border: none;
     border-radius: 5px;
     align-items: center;
@@ -112,69 +112,65 @@ button{
     color: white;
     border: none;
     border-radius: 4px;
-    width: 140px;
-    height: 45px;
+    width: 9vmax;
+    height: 3vmax;
     font-weight: bold;
     display: flex;
 }
 #play-btn{
-    width:18px;
-    height: 20px;
-    margin-right: 5px;
-    margin-left: 10px;
+    width:1.3vmax;
+    height: 1.5vmax;
+    margin-right: 0.5vmax;
+    margin-left: 0.8vmax;
 }
 #info-btn{
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-right: 1vmax;
+    margin-left: 1.3vmax;
 }
 
 .add{
     position: absolute;
-    margin-top: 640px;
+    margin-top: 45vmax;
     display: flex;
     width: 100vw;
     justify-content: flex-end;
 }
 .add-png{
-    margin-right: 20px;
+    margin-right: 1.5vmax;
 }
 
 /*------- Middle body css------- */
 .main-body{
-    margin-top: -115px;
+    margin-top:-6.3vmax;
     color: white;
 }
 .category{
     font-size: larger;
     font-weight: bold;
-    margin-left: 68px;
-    margin-bottom: 20px;
+    margin-left: 4.5vmax;
+    margin-bottom: 1vmax;
 }
 .see-again , .top-10{
-    margin-bottom: 60px;
+    margin-bottom: 4vmax;
 }
 .imgs-row{
-    margin-right:-109px;
+    margin-right:-7vmax;
 }
 .imgs-2nd-row{
-    /* margin-right: 30px; */
-    margin-left: -20px;
-    height: 200px;
-    width: 170px;
+    margin-left: -1.5vmax;
+    height: 14vmax;
+    width: 12vmax;
 }
 .imgs-2nd-row-1st{
-    /* margin-right: 30px; */
-    height: 200px;
-    width: 170px;
+    height: 14vmax;
+    width: 12vmax;
 }
 .top-png{
     position: absolute;
-    margin-left:293px ;
-    height: 40px;
-    width: 30px;
+    margin-left:19vmax ;
+    height: 2.1vmax;
+    width: 2vmax;
 }
-
-
 
 /*----------- Footer css--------- */
 
@@ -253,6 +249,10 @@ li{
         width: 68px;
         height: 35px;
     }
+    #play-btn{
+        width: 15px;
+        height: 15px;
+    }
     .info{
         width: 100px;
         height: 35px;
@@ -284,9 +284,16 @@ li{
         margin-left:-62px;
         margin-bottom: 50px;
     }
-    /* .imgs-2nd-row{
+    .imgs-2nd-row{
         margin-left: 0px;
-    } */
+        width: 45vw;
+        height: 27vh;
+    }
+    .imgs-2nd-row-1st{
+        margin-left: 0px;
+        width: 45vw;
+        height: 27vh;
+    }
     .top-png{
         margin-left:375px ;
     }
