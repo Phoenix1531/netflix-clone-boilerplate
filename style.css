@@ -207,6 +207,9 @@ li{
 } 
 
 @media only screen and (max-width:426px){
+    body{
+        overflow-x: hidden;
+    }
     /* ---------Navbar----------- */
     .top{
         width: 100vmin;
@@ -279,9 +282,9 @@ li{
         margin-bottom: 80px;
     }
     .imgs-row{
-        width: 85vmax;
+        width: 80vmax;
         height: 30vmax;
-        margin-left:-62px;
+        margin-left:-60px;
         margin-bottom: 50px;
     }
     .imgs-2nd-row{
@@ -321,6 +324,9 @@ li{
     }
 }
 @media only screen and (max-width:376px){
+    body{
+        overflow-x: hidden;
+    }
     .top{
         width: 100vmin;
         height: 70vmax;
@@ -337,7 +343,7 @@ li{
         margin-left: 40px;
     }
     .top-png{
-        margin-left:320px ;
+        margin-left:340px ;
     }
     .footer{
         font-size: 13px;
@@ -351,6 +357,9 @@ li{
     }
 }
 @media only screen and (max-width:320px){
+    body{
+        overflow-x: hidden;
+    }
     .top{
         width: 100vmin;
         height: 70vmax;
@@ -358,7 +367,7 @@ li{
         box-shadow: none;
     }
     .imgs-row{
-        width: 63vmax;
+        width: 60vmax;
         height: 25vmax;
         margin-left:-40px;
         margin-bottom: 50px;
@@ -367,7 +376,7 @@ li{
         margin-left: 13px;
     }
     .top-png{
-        margin-left:275px ;
+        margin-left:290px ;
     }
     .footer{
         font-size: 10px;
